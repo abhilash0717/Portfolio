@@ -1,0 +1,236 @@
+.nav-link
+{
+    font-size: 23px;
+    color: black;
+}
+
+.container
+{
+    font-family: Karla;
+}
+.card-header
+{
+    background-color: white;
+    color:#3025f5;
+}
+
+p{
+   color:#4f6275;
+   font-size: 20px;
+}
+span{
+    color:#3025f5;
+}
+.thumbnail
+{
+    border: 3px solid #ddd;
+}
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+#hide
+{
+   display: none;
+}
+
+.fa
+{
+    font-size: 40px;
+}
+.jumbotron
+{
+    height: 500px;
+    background-image: url("header.jpeg");
+    background-position: center;
+    text-align: center;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #6d747a;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+.new {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+ 
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+   .new:hover .image {
+    opacity: 0.3;
+  }
+
+  
+  
+  .new:hover .middle {
+    opacity: 1;
+  }
+  
+  .btn .btn-primary {
+    background-color: grey;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+#first
+{
+    margin-left: 80px;
+}
+#about
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.btn-outline-secondary
+{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .btn-outline-secondary{
+    margin: 0;
+  padding: 0;
+    }
+   }
+   
+   .fa-4x
+   {
+       margin-left: 10px;
+   }
+ 
+  @media screen and (max-width: 600px) {
+ .card .image{
+   width: 330px;
+ }
+}
+
+@media screen and (max-width: 600px) {
+  #about{
+    margin: 0;
+    font-size: 13vw;
+    
+   }
+   }
+
+   @media screen and (max-width: 600px) {
+    #first{
+        margin: 0;
+      font-size: 5vw;
+      margin-bottom: 10px;
+     }
+     }
+
+     
+   @media screen and (max-width: 600px) {
+    .col-lg-12{
+     font-size: 13px;
+     }
+     }
+
+            
+   @media screen and (min-width: 600px) {
+    .col-lg-4 img{
+        margin-left: 160px;
+       }
+       }
+       
+   @media screen and (max-width: 600px) {
+  .col-lg-4 img{
+ margin-left: 130px;
+     }
+     }
+
+              
+   @media screen and (min-width: 600px) {
+   #des{
+    margin-left: 150px;
+       }
+       }
+                   
+   @media screen and (max-width: 600px) {
+    #des{
+     margin-left: 110px;
+        }
+        }
+        @media screen and (max-width: 600px) {
+            #code{
+             margin-left: 130px;
+                }
+                }
+                @media screen and (min-width: 600px) {
+                    #code{
+                        margin-left: 140px;
+                        }
+                        }        
+
+                    
+                    @media screen and (min-width: 600px) {
+                        #passion{
+                            margin-left: 140px;
+                            }
+                            }            
+                            
+                    @media screen and (max-width: 600px) {
+                        #passion{
+                            margin-left: 125px;
+                            }
+                            }        
+                                 @media screen and (max-width: 600px) {
+                                .navbar-toggler{
+                                   display: none;
+                                    }
+                                    }  
+                                          
+                                 @media screen and (max-width: 600px) {
+                                    #brand{
+                                       display: none;
+                                        }
+                                        }  
