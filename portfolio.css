@@ -1,3 +1,4 @@
+
 .nav-link
 {
     font-size: 23px;
@@ -40,7 +41,7 @@ img:hover {
 .jumbotron
 {
     height: 500px;
-    background-image: url("https://user-images.githubusercontent.com/40905548/75611673-968ccb00-5b42-11ea-9029-bbed1230f16c.jpeg");
+    background-image: url("header.jpeg");
     background-position: center;
     text-align: center;
 }
@@ -214,13 +215,13 @@ ul.timeline > li:before {
                     
                     @media screen and (min-width: 600px) {
                         #passion{
-                            margin-left: 140px;
+                            margin-left: 130px;
                             }
                             }            
                             
                     @media screen and (max-width: 600px) {
                         #passion{
-                            margin-left: 125px;
+                            margin-left: 142px;
                             }
                             }        
                                  @media screen and (max-width: 600px) {
