@@ -50,6 +50,13 @@ span{
 {
     border: 3px solid #ddd;
 }
+
+@media screen and (max-width: 600px) {
+   .thumbnail{
+  width: auto;
+    }
+   }
+   
 img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
@@ -173,8 +180,8 @@ ul.timeline > li:before {
  
   @media screen and (max-width: 600px) {
  .card .image{
-   width: 330px;
-   padding-left: 20px;
+   width: 250px;
+  
  }
 }
 
@@ -260,4 +267,4 @@ ul.timeline > li:before {
                                     #brand{
                                        display: none;
                                         }
-                                        }  
+                                        } 
