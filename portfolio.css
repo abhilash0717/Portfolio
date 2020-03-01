@@ -57,7 +57,7 @@ span{
     }
    }
    @media screen and (max-width: 600px) {
-   .thumbnail{
+   #hide .thumbnail{
   width: auto;
     }
    }
